@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: darkslateblue;
+}
+.border {
+    border: 1px solid red;
+}
+.border-blue {
+    border: 1px solid blue;
+}
+.main-container {
+    height: 100vh;
+}
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #eee;
+}
+.logo {
+    width: 200px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+main {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main h1 {
+    margin: 0;
+}
